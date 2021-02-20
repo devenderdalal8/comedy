@@ -1,0 +1,67 @@
+ext {
+
+  //Version
+  supportVersion = '28.0.0'
+
+  retrofitVersion = '2.5.0'
+  rxAndroidVersion = '2.1.0'
+  rxJavaVersion  = '2.2.19'
+
+  glideVersion = '4.9.0'
+  circleImageVersion = '1.3.0'
+
+  junitVersion = '4.12'
+  mockitoVersion = '2.8.47'
+
+  //Packages
+  retrofitPackage = 'com.squareup.retrofit2'
+
+  reactivePackage = 'io.reactivex.rxjava2'
+
+  glidePackage = 'com.github.bumptech.glide'
+  hdodenhofPackage = 'de.hdodenhof'
+
+  junitPackage = 'junit'
+  mockitoPackage = 'org.mockito'
+
+  multidexVersion = '1.0.2'
+  androidXVersion = '1.0.0'
+  lifecycle_version = "2.2.0"
+
+
+  androidXdependencies = [
+      design           : buildDependency('com.google.android.material', 'material', '1.0.0-rc01'),
+      recyclerView     : buildDependency('androidx.recyclerview', 'recyclerview', androidXVersion),
+      cardView         : buildDependency('androidx.cardview', 'cardview', androidXVersion),
+      appCompat        : buildDependency('androidx.appcompat', 'appcompat', androidXVersion),
+      viewModel        :buildDependency('androidx.lifecycle', 'lifecycle-viewmodel', lifecycle_version),
+      liveData        :buildDependency('androidx.lifecycle', 'lifecycle-livedata', lifecycle_version)
+
+  ]
+
+  retrofitDependencies = [
+      retrofit     : buildDependency(retrofitPackage, 'retrofit', retrofitVersion),
+      gson         : buildDependency(retrofitPackage, 'converter-gson', retrofitVersion),
+      rxAdapterJava: buildDependency(retrofitPackage, 'adapter-rxjava2', retrofitVersion)
+  ]
+
+  rxDependencies = [
+      rxAndroid: buildDependency(reactivePackage, 'rxandroid', rxAndroidVersion),
+      rxJava   : buildDependency(reactivePackage,'rxjava',rxJavaVersion)
+  ]
+
+  glide = buildDependency(glidePackage, 'glide', glideVersion)
+  glideCompiler = buildDependency(glidePackage, 'compiler', glideVersion)
+  circleImageView = buildDependency(hdodenhofPackage, 'circleimageview', circleImageVersion)
+
+  testingDependencies = [
+      junit      : buildDependency(junitPackage, 'junit', junitVersion),
+      mockito    : buildDependency(mockitoPackage, 'mockito-core', mockitoVersion)
+  ]
+
+  multidex = buildDependency('androidx.multidex', 'multidex', '2.0.0')
+}
+
+static String buildDependency(String pack, String dependency, String version) {
+  return "${pack}:${dependency}:${version}"
+}

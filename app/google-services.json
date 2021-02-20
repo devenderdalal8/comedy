@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "596343550131",
+    "project_id": "comedy-47e7d",
+    "storage_bucket": "comedy-47e7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596343550131:android:d4aae221fb2cfd5fd000c6",
+        "android_client_info": {
+          "package_name": "comedy.funny.world.video.clips.sound.hindi.prank.jokes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596343550131-d5odjbegj2qsnc0hc555v1ji187bv6jj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comedy.funny.world.video.clips.sound.hindi.prank.jokes",
+            "certificate_hash": "21565406e8ed3ad77a8f1d3d3b14f6f7289db866"
+          }
+        },
+        {
+          "client_id": "596343550131-0kfd5ahn1d6fd9nn37v5t15ot7s1sj56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOLQrPCuhMeNJI9le0IVAztnt7FtvJkzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596343550131-0kfd5ahn1d6fd9nn37v5t15ot7s1sj56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Video Songs</string>
+    <string name="facebook_app_id">722413805027589</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+             <!--    Others    -->
+    <string name="earn_coins">Earn Coins</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>

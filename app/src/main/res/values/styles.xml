@@ -1,0 +1,54 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+<!--    <style name="AppTheme.AdAttribution">-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:layout_gravity">left</item>-->
+<!--        <item name="android:textColor">#FFFFFF</item>-->
+<!--        <item name="android:textSize">12sp</item>-->
+<!--        <item name="android:text">@string/ad</item>-->
+<!--        <item name="android:background">#FFCC66</item>-->
+<!--        <item name="android:width">15dp</item>-->
+<!--        <item name="android:height">15dp</item>-->
+<!--    </style>-->
+
+<!--    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">-->
+<!--        <item name="android:fontFamily">@font/montserrat_semibold</item>-->
+<!--    </style>-->
+
+<!--    <style name="TabLayout_Theme" parent="@style/AppTheme">-->
+<!--        <item name="android:singleLine">true</item>-->
+<!--    </style>-->
+
+    <style name="DialogTheme" parent="android:Theme.Dialog">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="background">@color/white</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="fontFamily">@font/montserrat_semibold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="singleLine">true</item>
+        <item name="centered">true</item>
+    </style>
+
+    <style name="TabLayout_Theme" parent="@style/AppTheme">
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+
+</resources>
